@@ -1,38 +1,136 @@
-.App {
+.site-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  top: 15%;
+  left: 2%;
+}
+
+.nav-links {
+  position: relative;
+  bottom: 24%;
+  left: 85%;
+  background: beige;
+  width: 5%;
+  border-radius: 10px;
+  font-weight: 500;
   text-align: center;
+  height: 25px;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-header {
+  position: absolute;
+  background-color: #4c7171;
+  width: 100%;
+  height: 5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-bar {
+  width: 50%;
+  display: block;
+  top: 12%;
+  position: absolute;
+  left: 25%;
+  height: 4%;
+  border-radius: 10rem;
+  padding-left: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.AppContainer {
+  position: absolute;
+  top: 20%;
+  /* left: 5%; */
+  width: 100%;
+}
+
+.card-container-div {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  top: 25%;
+ /*  left: 5%; */
+  /*width: 100%;*/
+  margin: 0 auto;
+  /* height: 500px; */
+  max-width: 90%;
+  flex-wrap: wrap;
+  /* justify-content: center; */
 }
 
-.App-link {
-  color: #61dafb;
+.card-div {
+  
+  /* flex:1 0 0; */
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  border: 1px solid;
+  margin: 1rem;
+  padding: 1rem;
+  width: 30rem;
+}
+
+.card-header {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.attrLabel{
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.card-button{
+  display: none;
+}
+
+.modal-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-header h4{
+  font-size: 1.5rem;
+  margin: 0px;
+}
+
+.m-0{
+  margin: 0px;
+}
+
+.m-r-2{
+  margin-right: 2rem;
+}
+
+
+.form-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+.form-row .form-wrapper {
+  width: 50%;
+}
+
+.form-wrapper {
+  position: relative;
+}
+
+.form-wrapper label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-wrapper input{
+  display: block;
+  padding: 5px;
+  width: 100%;
+}
+
+.form-wrapper textarea {
+  resize: none;
+  padding: 0.5rem;
+  width: 100%;
 }
